@@ -176,21 +176,33 @@ main section{
 /* main section 4 styles */
 
 .main-section-header-4{
-    width: 1140px;
+    max-width: 840px;    
     padding: 150px;
     background-image: url('../Flower Asset/Rectangle 9.png');
     border-radius: 8px;
     background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 150px;
     
+}
+.section-4-header{
+    max-width: 600px;
+    align-items: center;
+    margin:0 auto;
 }
 
 .main-section-header-4-contract input[type="text"], .main-section-header-4-contract input[type="email"],
 
+.main-section-header-4-contract{
+    display: flex;
+    gap:10px
+}
 .section-email{
     border-radius: 5px;
     width: 500px;
-    height: 56px;
+    height: 60px;
     border: none;
+    margin-left: 200px;
 }
 .section-btn{
     background: #E55473;
@@ -206,10 +218,15 @@ main section{
 .footer{
     background-color: #111010;    
     padding: 130px 200px;
+   margin-top: 50px;
 }
 .footer-content{
     color: #FFF;
     text-align: center;
+}
+.footer-p{
+    width: 625px;
+    margin: 0px auto;
 }
 
 
