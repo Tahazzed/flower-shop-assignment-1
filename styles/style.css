@@ -214,6 +214,46 @@ main section{
     padding: 20px 0px;
     text-align: center;
 }
+
+
+/* Resume Section Style */
+.resume-column-title{
+    color: #474747;   
+    font-size: 30px;    
+    font-weight: 700;
+    text-align: center;
+}
+.resume-column-img{
+    max-width: 500px;
+}
+.resume-container{
+    width: 1140px;
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+}
+.resume-item-title{
+    color: #474747;   
+    font-size: 25px;    
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.resume-item-institute{
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: 0px;
+} 
+
+.resume-item-description{
+   color: #757575; 
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
 /* Footer style */
 .footer{
     background-color: #111010;    
